@@ -1,0 +1,205 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.scrolling-active{
+    box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
+
+    transition: .5s;
+}
+.scrolling-active .colorba{
+    color: black;
+}
+.scrolling-active .colorb:hover{
+    color: black !important;
+}
+.scrolling-active .navbar-nav a:hover{
+    color:#1d71b9 ;
+}
+header nav{
+    transition: .5s;
+}
+
+header img{
+    width: 220px;
+    object-fit: cover;
+}
+header .colora{
+    color: black;
+}
+header .colora:hover{
+    text-decoration: underline;
+    color: white;
+}
+header .colorba{
+    color: white;
+}
+header .colorb{
+    background-color: #c0dbeb;
+    color: #1d71b9;
+    font-weight: bold;
+}
+header .colorba:hover, .colorb:hover{
+    text-decoration: underline;
+    color: black;
+}
+#main .carousel-inner img{
+    max-height: 100vh;
+    object-fit: cover;
+}
+#main .carousel-inner .womanfondo{
+    height: auto;
+    max-width: 100%;
+}
+#carousel .overlay{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+.formaparadiv{
+    border: 2px solid #575756;
+    background-color: #575756;
+    max-width: 75%;
+    font-size: 20px;
+}
+.fixbotcontainer{
+    background-color: #c0dbeb;
+    color: #1d71b9;
+    font-weight: bold;
+}
+.cardsection2{
+    border: none;
+    margin: 0 auto;
+}
+.imgsection2{
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    margin: 0 auto;
+}
+.cardtitleh5{
+    color: #1d71b8;
+}
+.card-servicios{
+    width: 130px;
+    margin: 0 auto;
+    border: none;
+    
+}
+.divservicios{
+    background-color: #1d71b8;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 25%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    min-width: 300px;
+    text-align: center;
+}
+.estilop{
+    font-size: 2rem;
+}
+.arreglof{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.colorcontainerportafolio{
+    background-color: #daf0fe;
+    height: 150px;
+    
+}
+.imgportafolio{
+    max-width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 5%;
+}
+#contactanos .container-fluid{
+    padding: 0;
+    position: relative;
+}
+#contactanos .container-fluid .backgroundcontactanos{
+    max-height: 100vh;
+    max-width: 100%;
+    object-fit: cover;
+}
+#contactanos .overlay{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+.imgmincontacto{
+    max-width: 100%;
+    height: auto;
+    min-height: 430px;    
+    object-fit: cover;
+}
+.contactanoscontainer{
+    background: rgba(255,255,255,0.1);
+    margin: 0 auto;
+}
+footer .divfooter{
+    height: 90px;
+    background-color: #0f71b8;
+   
+}
+footer .divfooter a{
+    color: white;
+    text-decoration: none;   
+    font-size: 18px;
+}
+footer .divfooter a:hover{
+    text-decoration: underline; 
+}
+footer .divderechos{
+    color: #0f71b8;
+    font-weight:600;
+    margin: 5px 0px;
+}
+
+@media (max-width:767px){
+    .imgsection2{
+        max-width: 100px;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        width: 10%;
+    }
+    .nav-link{
+        text-align: center;
+    }
+}
+@media (max-width:714px){
+    #carousel .overlay{
+        top: 5%;
+    }
+    .fixbotcontainer{
+        padding-bottom: 3px;
+        margin-bottom: 2px;
+    }
+}
+
+@media (max-width:565px){
+    #carousel .overlay{
+        top: 10%;
+    }
+    #main .carousel-inner img{
+        min-height: 430px;
+    }
+}
+
+
+
+
