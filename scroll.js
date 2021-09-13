@@ -20,7 +20,7 @@ function colornav(){
     let header = document.querySelector('#navmenu');
     header.classList.toggle('bg-white', window.scrollY === 0 );
     header.classList.toggle('scrolling-active', window.scrollY === 0 );
-    document.getElementById('buttonClick').removeEventListener('click', colornav);
+    
 }
 
 document.getElementById('buttonClick').removeEventListener('click', function(){
@@ -29,5 +29,3 @@ document.getElementById('buttonClick').removeEventListener('click', function(){
     header.classList.toggle('bg-white', window.scrollY === 0 );
     header.classList.toggle('scrolling-active', window.scrollY === 0 );
 });
-
-const btn = document.querySelector('')
